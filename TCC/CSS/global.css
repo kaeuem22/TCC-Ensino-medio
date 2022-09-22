@@ -170,3 +170,11 @@ footer{
   background-color: var(--light-gray);
   color: var(--desaturated-blue);
 }
+
+.nossodiferencial{
+  color: var(--light-gray);
+}
+
+.pesquisas li{
+  color: var(--light-gray);
+}
