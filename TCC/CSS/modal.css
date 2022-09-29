@@ -1,0 +1,59 @@
+@import url(./colors.css);
+
+dialog{
+    color: var(--font-color);
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    background-color: var(--background-blue);
+    border: none;
+    border-radius: 0.4rem;
+    box-shadow: 0 0 1em rgb(0 0 0 / 1);
+}
+
+#modal{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+dialog img{
+    width: 50%;
+    border-radius: 7px;
+}
+
+dialog h3{
+    margin-top: 1rem;
+    font-size: 1.8rem;
+}
+
+#modal p {
+    margin-block: 3rem;
+}
+
+#modal a{
+    outline: none;
+    text-decoration: none;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: inline;
+    background-color: var(--beige);
+    border-radius: 9px;
+    padding: 1rem;
+    font-weight: 700;
+    color: rgb(20, 20, 20);
+}
+
+.close{
+    display: flex;
+    width: 100%;
+    height: 3rem;
+    margin-bottom: 2rem;
+    justify-content: end;
+}

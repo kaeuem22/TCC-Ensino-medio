@@ -1,0 +1,27 @@
+@import url(./colors.css);
+
+#menu{
+    background-color: var(--beige);
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    border-radius: 0;
+    width: 0vw;
+    height: 100vh;
+
+    transition: ease 800ms;
+    width: 50vh;
+}
+
+#menu li{
+    list-style: none;
+}
+
+#menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.hide{
+    display: none;
+}
