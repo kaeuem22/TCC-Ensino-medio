@@ -1,0 +1,76 @@
+@media (min-width: 600px) {
+
+    *{
+        font-size: 2rem;
+    }
+
+    header{
+        height: 95rem;
+    }
+
+    .titulo {
+        margin-top: -8rem;
+    }
+
+    .titulo img{
+        width: 15%;
+    }
+
+    .titulo h1{
+        font-size: 6rem;
+    }
+
+    span{
+        margin-top: 12rem;
+    }
+
+    .card{
+        font-size: 2.4rem;
+    }
+
+    h2, strong{
+        font-size: 2.6rem;
+    }
+
+    .informacoes-iniciais{
+        padding: 2rem;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    .informacoes-iniciais div{
+        width: 30%;
+        margin: 0;
+        margin-inline: 2rem;
+        padding: 0;
+    }
+
+    .informacoes-iniciais div:first-child{
+        border-right: 1px solid black;
+    }
+    
+
+    .informacoes-iniciais img {
+        width: 12rem;
+      }
+
+      .OPEN {
+        display: inline;
+        width: 0;
+        height: 0;
+        background-color: var(--beige);
+        padding: 4rem;
+      
+        transition: ease 800ms;
+        height: 120%;
+        width: 30rem;
+        border-radius: 7px;
+        background-color: #ba8d3f;
+        margin: 4rem;
+      }
+
+      .informacoes-iniciais p{
+        padding: 2rem;
+      }
+    
+}
