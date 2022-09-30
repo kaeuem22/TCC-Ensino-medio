@@ -1,0 +1,43 @@
+@media (min-width: 600px) {
+
+    *{
+        font-size: 2rem;
+    }
+
+    header{
+        height: 70rem;
+    }
+
+    .titulo {
+        margin-top: -8rem;
+    }
+
+    .titulo img{
+        width: 15%;
+    }
+
+    .titulo h1{
+        font-size: 6rem;
+    }
+
+    span{
+        margin-top: 12rem;
+    }
+
+    .card{
+        font-size: 2.4rem;
+    }
+
+    h2, strong{
+        font-size: 2.6rem;
+    }
+
+    .informacoes-iniciais{
+        margin-top: 14rem;
+    }
+
+    .informacoes-iniciais img {
+        width: 20rem;
+      }
+    
+}
