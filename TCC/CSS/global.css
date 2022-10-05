@@ -1,0 +1,213 @@
+@import url(./colors.css);
+@import url(./fonts.css);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background-blue);
+}
+
+/* menu de navegação */
+
+nav {
+  position: fixed;
+  z-index: 8;
+  right: 0;
+  background-color: #515151a9;
+  color: white;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding: 0.4rem;
+  border-radius: 0 0 5px 5px;
+  box-shadow: -5px 2px 30px rgb(0, 0, 0);
+  transition: ease 700ms;
+}
+
+.Open-nav {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+nav svg {
+  margin-top: 0.5rem;
+  width: 3rem;
+}
+
+
+/* classes para animações */
+
+.OPEN {
+  display: inline;
+  width: 0;
+  background-color: var(--beige);
+  padding: 4rem;
+
+  transition: ease 800ms;
+  width: 30rem;
+  border-radius: 7px;
+  background-color: #ba8d3f;
+  margin: 4rem;
+}
+
+.oculto {
+  display: none;
+  transition: ease 800ms;
+}
+
+/* geral */
+
+span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 8rem;
+  text-align: center;
+  color: white;
+  margin-bottom: 6rem;
+}
+
+strong {
+  font-size: 2rem;
+  color: var(--beige);
+}
+
+
+figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Créditos */
+
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 2rem;
+}
+
+footer h2 {
+  margin: 0;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.links figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+footer {
+  background-color: var(--light-gray);
+  margin: 0;
+  padding: 0;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
+footer #nossa-logo {
+  width: 15%;
+  margin: 0;
+  padding: 0;
+}
+
+#logo-unasp {
+  margin: 0;
+  padding: 0;
+  width: 60%;
+}
+
+.instagram {
+  margin-top: 0.5rem;
+}
+
+.instagram svg {
+  border-radius: 30%;
+  margin: 1rem;
+  margin-top: -3rem;
+  color: var(--desaturated-blue);
+  background-color: transparent;
+  display: inline;
+  width: 3.3rem;
+}
+
+.instagram a {
+  color: transparent;
+}
+
+footer li {
+  margin-top: 1rem;
+  list-style: none;
+}
+
+.group {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.participantes {
+  margin-top: 6rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+.participantes h2 {
+  color: var(--desaturated-blue);
+}
+
+.group li,
+.group p,
+.group a {
+  text-decoration: none;
+  color: var(--desaturated-blue);
+  font-weight: 400;
+}
+
+.Navegue {
+  margin-top: 3rem;
+  text-align: center;
+  margin-inline: 10rem;
+  margin-bottom: 4rem;
+}
+
+.Navegue h2 {
+  color: var(--desaturated-blue);
+}
+
+
