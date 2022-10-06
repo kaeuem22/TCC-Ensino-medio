@@ -1,0 +1,162 @@
+@media (min-width: 600px) {
+
+    *{
+        font-size: 2rem;
+    }
+
+    header{
+        height: 95rem;
+    }
+
+    .titulo {
+        margin-top: -8rem;
+    }
+
+    nav svg{
+        width: 4rem;
+    }
+
+    .titulo img{
+        width: 15%;
+    }
+
+    .titulo h1{
+        font-size: 6rem;
+    }
+
+    span{
+        margin-top: 12rem;
+    }
+
+    .card{
+        font-size: 2.4rem;
+    }
+
+    h2, strong{
+        font-size: 2.6rem;
+    }
+
+
+    .informacoes-iniciais{
+        padding: 2rem;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: start;
+        margin-top: 16rem;
+        margin-inline: 2rem;
+    }
+
+    .container-OPEN{
+      flex-wrap: wrap;
+    }
+
+    .informacoes-iniciais div{
+        width: 30%;
+        margin: 0;
+        margin-inline: 2rem;
+        padding: 2rem;
+        margin-top: 3rem;
+    }
+
+    .informacoes-iniciais div:first-child{
+        border-right: 1px solid rgb(255, 255, 255);
+    }
+
+    .informacoes-iniciais #publico-alvo{
+        border-inline: 1px solid white;
+    }
+
+    .informacoes-iniciais div:last-child{
+        border-left: 1px solid white;
+    }
+    
+
+    .informacoes-iniciais img {
+        width: 12rem;
+      }
+
+
+      .OPEN {
+        display: inline;
+        width: 0;
+        height: 0;
+        background-color: var(--beige);
+        padding: 4rem;
+      
+        transition: ease 800ms;
+        height: 100%;
+        border-radius: 7px;
+        background-color: #ba8d3f;
+        border: none;
+        margin: 4rem;
+        text-align: center;
+      }
+
+      .informacoes-iniciais .OPEN{
+        border: none;
+        width: 35rem;
+      }
+
+      .informacoes-iniciais p{
+        padding: 2rem;
+      }
+
+      figure img {
+        width: 40%;
+        border-radius: 5px;
+      }
+
+      .lista-componentes {
+        align-items: start;
+      }
+    
+      .lista-componentes figure {
+        width: 9rem;
+        height: 9rem;
+      }
+
+      dialog img{
+        width: 30%;
+    }
+
+    #modal p {
+        margin-inline: 20%;
+    }
+
+    .Diferencial img {
+        width: 40%;
+      }
+
+    .third-section{
+        margin-inline: 6rem;
+      }
+
+      footer{
+        flex-wrap: nowrap;
+        margin: 0;
+      }
+
+      footer #nossa-logo{
+       margin: 0;
+       width: 10%; 
+      }
+
+      .group {
+        margin-right: 8rem;
+      }
+
+      #logo-unasp {
+        padding: 0;
+        margin: 0;
+        width: 40%;
+      }
+
+      .logos{
+        margin-bottom: 1rem;
+      }
+
+      figure iframe{
+        width: 50%;
+      }
+}
