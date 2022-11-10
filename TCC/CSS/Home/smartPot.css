@@ -1,0 +1,9 @@
+@import url(../colors.css);
+@import url(../fonts.css);
+
+#Pages_Menu-icons{
+  text-align: center;
+  text-decoration: underline;
+  margin-right: 0.5rem;
+  width: 2rem;
+}

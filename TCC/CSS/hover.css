@@ -1,0 +1,60 @@
+@import url(./colors.css);
+
+a {
+  background-image: linear-gradient(var(--beige), var(--beige));
+  background-size: 0% 2px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  transition: background-size ease 300ms;
+}
+
+.third-section a:hover {
+  color: var(--beige);
+  background-size: 35% 2px;
+}
+
+.group a {
+  background-image: linear-gradient(#3b76b1, #3b76b1);
+  background-size: 0% 2px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  transition: background-size ease 300ms;
+}
+
+.group a:hover {
+  color: #3b76b1;
+  background-size: 100% 2px;
+}
+
+.instagram svg:hover {
+  cursor: pointer;
+  color: #3b76b1;
+}
+
+#sideMenu a:hover, #sideMenu strong:hover {
+  color: var(--title);
+}
+
+#modal a {
+  background-image: linear-gradient(var(--beige), var(--beige));
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  transition: 300ms background-size ease;
+}
+
+#modal a:hover {
+  color: white;
+  background-size: 0% 100%;
+}
+
+.lista-componentes figure:hover {
+  cursor: pointer;
+  background-color: #121b25;
+  width: 11rem;
+  height: 11rem;
+}
+
+.close:hover, .informacoes-iniciais div:hover, #main_nav{
+    cursor: pointer;
+}
